@@ -1,0 +1,154 @@
+:root{
+    --bitcoin-orange: #f7931a;
+    --soft-oragne: #ffe9d5;
+    --secondary-blue: #1a9af7;
+    --soft-blue: #e7f5ff;
+    --warm-black: #282623;
+    --black: #201e1c;
+    --grey: #bababa;
+    --off-white: #faf8f7;
+    --just-white: #fff;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+/*-------------------------------HEADER---------------------------*/
+
+header{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    min-width: 320px;
+    height: 334px;
+    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+}
+
+header img{
+    width: 150px;
+    height: 24px;
+    margin-top: 60px;
+    align-self: center;
+}
+
+.header-text-container{
+    width: 90%;
+    min-width: 280px;
+    max-width: 900px;
+    height: 220px;
+    text-align: center;
+    align-self: center;
+}
+
+
+.header-text-container h1{
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+    color: var(--just-white);
+}
+
+.header-text-container p{
+    margin-top: 25px;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: var(--soft-oragne);
+}
+
+.header-text-container .header-dropbox{
+    position: absolute;
+    display: block;
+    top: 270px;
+    left: calc(50% - 117px);
+    padding: 15px;
+    margin-top: 35px;
+    width: 230px;
+    height: 50px;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+       
+    background-color: var(--off-white);
+    color: var(--black);
+    box-shadow: 0 4px 8px rgba(89,73, 30, 0.16);
+    border: none;
+    border-radius: 5px;
+}
+
+.header-dropbox span{
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 10px;
+    background-image: url(./assets/icons/down-arrow.svg);
+}
+
+
+
+/*-------------------------------MAIN---------------------------*/
+
+main{
+    width: 100%;
+    /*calcula la altura en base a su contenido*/
+    height: auto;
+    background-color: var(--off-white);
+}
+
+.main-principal-container{
+    width: 100%;
+    height: auto;
+    padding-top: 80px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+.main-principal-container .main-logo-img{
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    background-image: url(./assets/img/Bitcoin.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+
+
+.main-principal-container .main-info-container{
+    width: 90%;
+    min-width: 280px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main-info-container h2{
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+    color: var(--black);
+    margin-bottom: 30px;
+}
+
+
+.main-info-container p{
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+    font-weight: 500;
+    color: #757575;
+    margin-bottom: 30px;
+}
