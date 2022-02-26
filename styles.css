@@ -152,3 +152,90 @@ main{
     color: #757575;
     margin-bottom: 30px;
 }
+
+main .main-table-container{
+    width: 70%;
+    min-width: 230px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+}
+
+.main-table-container p{
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 2.3rem;
+    color: var(--bitcoin-orange);
+    margin-bottom: 15px;
+}
+
+.main-table-container .table-section-info{
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin:0 auto;
+}
+
+.table-section-info table{
+    width: 100%;
+    height: 100%;    
+}
+
+.table-section-info td{
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+    width: 50%;
+    color: var(--grey);
+    background-color: var(--just-white);   
+}
+
+/*Redondear las esquinas de la tabla*/
+
+.table-section-info .top-column-left{
+    border-radius: 15px 0 0 0;
+}
+
+.table-section-info .top-column-right{
+    border-radius: 0 15px 0 0;
+}
+
+.table-section-info .bottom-column-left{
+    border-radius: 0 0 0 15px;
+}
+
+.table-section-info .bottom-column-right{
+    border-radius: 0 0 15px 0;
+}
+
+
+.table-section-info .column-right{
+ font-size: 1.4rem;
+ line-height: 1.7rem;
+ font-weight: normal;
+ color: #757575;
+}
+
+.table-section-info .down-arrow{
+    display: inline-block;
+    background-image: url('./assets/icons/trending-down.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    width: 13px;
+    height: 13px;
+    margin-left: 10px;
+}
+
+.table-section-info .up-arrow{
+    display: inline-block;
+    background-image: url('./assets/icons/trending-up.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover ;
+    width: 13px;
+    height: 13px;
+    margin-left: 10px;
+}
