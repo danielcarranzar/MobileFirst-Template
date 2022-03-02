@@ -289,7 +289,7 @@ main .main-table-container{
 
 .product-card-container .product-card{
     width: 90%;
-    height: 150px;
+    height: 160px;
     min-width: 288px;
     max-width: 400px;
     margin: 15px auto;
@@ -353,4 +353,23 @@ main .main-table-container{
     background-repeat: no-repeat;
     background-size: cover;
     margin-bottom: 10px;
+}
+
+.image-card-section{
+    background-image: url(./assets/img/bitcoinbaby2x.jpg);
+    width: 100%;
+    min-width: 320px;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.image-card-section h2{
+    color:var(--just-white);
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 30px;
 }
