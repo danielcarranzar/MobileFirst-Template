@@ -19,6 +19,7 @@
 html{
     font-size: 62.5%;
     font-family: 'DM Sans', sans-serif;
+    scroll-behavior: smooth;
 }
 
 
@@ -372,4 +373,48 @@ main .main-table-container{
     font-weight: bold;
     text-align: center;
     padding-top: 30px;
+}
+
+.marketing-section{
+    width: 100%;
+    min-width: 320px;
+    margin-bottom: 70px;
+    text-align: center;
+}
+
+.marketing-section .marketing-header{
+    width: 90%;
+    min-width: 288px;
+    margin:0 auto;
+    height: auto;
+    margin-bottom: 50px;
+}
+.marketing-header h2{
+    color: var(--black);
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    padding-top: 50px;
+}
+
+.marketing-header p{
+    color: #757575;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    padding-top: 30px;
+}
+
+
+.marketing-card-slider{
+    position: relative;
+    background-color: var(--just-white);
+    width: 700%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px auto 0;
+    padding: 0 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
 }
