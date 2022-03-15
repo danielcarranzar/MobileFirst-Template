@@ -14,6 +14,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'DM Sans', sans-serif;
 }
 
 html{
@@ -43,6 +44,7 @@ header img{
     height: 24px;
     margin-top: 60px;
     align-self: center;
+    margin-bottom: 10px;
 }
 
 .header-text-container{
@@ -417,4 +419,64 @@ main .main-table-container{
     padding: 0 15px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.marketing-card-slider .card-slider-ad{
+    position: absolute;
+    top:-15px;
+    left: calc(50% - 60px);
+    width: 115px;
+    height: 30px;
+    background-color: var(--bitcoin-orange);
+    color: var(--just-white);
+    border-radius: 8px;
+    padding:7px;
+    font-size: 1.2rem;
+}
+
+.card-slider-info h3{
+    padding-top: 30px;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+}
+.card-slider-info .card-slider-price{
+    padding: 5px 0;
+    color: black;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 4rem;
+}
+
+.card-slider-info .card-slider-price span{
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.card-slider-info .card-slider-text{
+    color: #757575;
+    font-size: 1.2rem;
+}
+
+.card-slider-info button{
+    width: 140px;
+    height: 49px;
+    margin-top: 20px;
+    color:var(--black);
+    border:2px solid var(--bitcoin-orange);
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    background-color: var(--off-white);
+    font-family: 'DM Sans', sans-serif;
+}
+
+.card-slider-info button span{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url(./assets/icons/orange-right-arrow.svg);
+    vertical-align: text-bottom;
 }
