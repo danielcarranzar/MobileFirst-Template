@@ -97,7 +97,7 @@ header img{
     width: 13px;
     height: 8px;
     margin-left: 10px;
-    background-image: url(./assets/icons/down-arrow.svg);
+    background-image: url(../assets/icons/down-arrow.svg);
 }
 
 
@@ -124,7 +124,7 @@ main{
     margin: 0 auto;
     width: 200px;
     height: 200px;
-    background-image: url(./assets/img/Bitcoin.svg);
+    background-image: url(../assets/img/Bitcoin.svg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -223,7 +223,7 @@ main .main-table-container{
 
 .table-section-info .down-arrow{
     display: inline-block;
-    background-image: url('./assets/icons/trending-down.svg');
+    background-image: url('../assets/icons/trending-down.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover ;
@@ -234,7 +234,7 @@ main .main-table-container{
 
 .table-section-info .up-arrow{
     display: inline-block;
-    background-image: url('./assets/icons/trending-up.svg');
+    background-image: url('../assets/icons/trending-up.svg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover ;
@@ -259,7 +259,7 @@ main .main-table-container{
     left: calc(50% - 20px);
     height: 25px;
     width: 40px;
-    background-image: url(./assets/icons/batata.svg);
+    background-image: url(../assets/icons/batata.svg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -321,7 +321,7 @@ main .main-table-container{
 .product-card .clock{
     width: 20px;
     height: 20px;
-    background-image: url('./assets/icons/clock.svg');
+    background-image: url('../assets/icons/clock.svg');
     display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
@@ -331,7 +331,7 @@ main .main-table-container{
 .product-card .eye{
     width: 20px;
     height: 20px;
-    background-image: url('./assets/icons/eye.svg');
+    background-image: url('../assets/icons/eye.svg');
     display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
@@ -341,7 +341,7 @@ main .main-table-container{
 .product-card .coin{
     width: 20px;
     height: 20px;
-    background-image: url('./assets/icons/dollar-sign.svg');
+    background-image: url('../assets/icons/dollar-sign.svg');
     display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
@@ -351,7 +351,7 @@ main .main-table-container{
 .product-card .verified{
     width: 20px;
     height: 20px;
-    background-image: url('./assets/icons/check-circle.svg');
+    background-image: url('../assets/icons/check-circle.svg');
     display: inline-block;
     background-repeat: no-repeat;
     background-size: cover;
@@ -359,7 +359,7 @@ main .main-table-container{
 }
 
 .image-card-section{
-    background-image: url(./assets/img/bitcoinbaby2x.jpg);
+    background-image: url(../assets/img/bitcoinbaby2x.jpg);
     width: 100%;
     min-width: 320px;
     height: 50vh;
@@ -487,7 +487,7 @@ main .main-table-container{
     width: 20px;
     height: 20px;
     display: inline-block;
-    background-image: url(./assets/icons/orange-right-arrow.svg);
+    background-image: url(../assets/icons/orange-right-arrow.svg);
     vertical-align: text-bottom;
 }
 
